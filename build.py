@@ -78,7 +78,7 @@ def page(title, desc, body, url, og_type="website"):
 <main>
 {body}
 </main>
-<footer>© {datetime.date.today().year} {NAME} · <a href="{INSTA}">@1in.sajang</a> · 이 사이트의 자료는 일반 정보이며 세무·법률 자문이 아닙니다.</footer>
+<footer>© {datetime.date.today().year} {NAME} · <a href="{INSTA}">@1in.sajang</a> · <a href="{SITE}/privacy/">개인정보처리방침</a> · 이 사이트의 자료는 일반 정보이며 세무·법률 자문이 아닙니다.</footer>
 </body>
 </html>
 """
